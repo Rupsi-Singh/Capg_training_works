@@ -1,1 +1,27 @@
+/**
+ * Display String in reverse order word by word
+ * @author Rupsi
+ *
+*/
+ class Assignment1 {
 
+	public static void main(String[] args) {
+		String str1 = "Hello Dear Friend";
+		//Output as  :  Friends Dear Hello
+		String output = reverseString(str1);
+		System.out.println(output);
+		
+
+	}
+
+	private static String reverseString(String input) {
+		String s[]=input.split(" ");
+		String b=" ";
+		for(int i=s.length-1;i>=0;i--)
+		{
+			b +=s[i]+" ";
+		}
+		
+		return b;
+	}
+}
