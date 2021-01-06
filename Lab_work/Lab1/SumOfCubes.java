@@ -10,6 +10,11 @@ public class SumOfCubes {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter any number of your choice: ");
 		int num=sc.nextInt();
+		int ans=sum1(num);
+		System.out.println(ans);
+	}
+	static int sum1(int num)
+	{
 		int sum=0,rem;
 		while(num>0)
 		{
@@ -17,7 +22,8 @@ public class SumOfCubes {
 			sum+=rem*rem*rem;
 			num/=10;
 		}
-		System.out.println("Sum of the cubes= "+sum);
+		return sum;
 	}
+	
 
 }
