@@ -1,3 +1,9 @@
+/**
+ * Find the second smallest element of an array.
+ * @author Rupsi
+*/
+
+
 package com.cg.lab2.util;
 
 import static org.junit.Assert.*;
