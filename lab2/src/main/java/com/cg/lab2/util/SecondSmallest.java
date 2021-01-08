@@ -1,3 +1,7 @@
+/**
+ * Find the second smallest element of an array 
+ * @author Rupsi
+*/
 package com.cg.lab2.util;
 import java.util.*;
 public class SecondSmallest {
