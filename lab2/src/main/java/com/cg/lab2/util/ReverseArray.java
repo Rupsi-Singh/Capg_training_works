@@ -1,3 +1,10 @@
+/**
+*Create a method which accepts an integer array, reverse the numbers in the array and returns the resulting array in sorted order
+* @author- Rupsi
+*/
+
+
+
 package com.cg.lab2.util;
 
 import java.util.Arrays;
